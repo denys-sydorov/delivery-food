@@ -1,0 +1,285 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Точка еды - доставка еды на дом</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <div class="container">
+        <header>
+            <!-- Логотип -->
+            <a href="./index.html" class="logo">
+                <img src="./img/logo.svg" alt="logo" >
+            </a> 
+            <!-- Поле адреса -->
+            <input type="text" class="input input-address" placeholder="Адрес доставки" />
+            <div class="buttons">
+                <button class="button button-primary">
+                    <img src="./img/user.svg" alt="user" class="button-icon">
+                    <span class="button-text">Войти</span> 
+                </bytton>
+                <button class="button" id="cart-button">
+                    <img src="./img/buy.svg" alt="buy" class="button-icon">
+                    <span class="button-text">Корзина</span>
+                </bytton>
+            </div>
+        </header>
+
+    </div>
+    <!-- /.container-->
+    <main class="main">
+        <div class="container">
+            <section class="restaurants">
+                <div class="section-heading">
+                    <h2 class="section-title">Точка еды</h2>
+                    <div class="card-info">
+                        <div class="rating">
+                            <img src="./img/rating.svg" alt="rating">4,5</div>
+                        <div class="price">От 840 ₽</div>
+                        <div class="category">Комбо сеты</div>
+                    </div>
+                    <!-- /.card-info -->
+                </div>
+                <div class="cards">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="./img/Точка еды/Tochka1.jpg" alt="Tochka1" class="card-image">
+                        <div class="card-text">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Закуски для компании Комбо</h3>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-info">
+                                <div class="ingredients">Картофель фри, картофель по-деревенски, луковые кольца, крылышки в соусе BBQ.</div>
+                            </div>
+                            <!-- /.card-info -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="./img/shopping-card.svg" alt="shopping-card" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">685 ₽</strong>
+                            </div>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card1 -->
+    
+                    <div class="card wow fadeInUp" data-wow-delay="0.4s">
+                        <img src="./img/Точка еды/Tochka2.jpg" alt="Tochka2" class="card-image">
+                        <div class="card-text">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Комбо постное-вегетарианское на 2-х</h3>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-info">
+                                <div class="ingredients">Мисо суп, вок постный, пшеничная лапша, ролл с огурцом, ролл постный.</div>
+                            </div>
+                            <!-- /.card-info -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="./img/shopping-card.svg" alt="shopping-card" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">1000 ₽</strong>
+                            </div>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card2 -->
+    
+                    <div class="card wow fadeInUp" data-wow-delay="0.6s">
+                        <img src="./img/Точка еды/Tochka3.jpg" alt="Tochka3" class="card-image">
+                        <div class="card-text">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Закуски для Большой компании Комбо</h3>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-info">
+                                <div class="ingredients">Картофель фри, картофель по-деревенски, луковые кольца, крылышки в соусе BBQ, крылья в острой панировке, кольца кальмара, нагетсы.</div>
+                            </div>
+                            <!-- /.card-info -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="./img/shopping-card.svg" alt="shopping-card" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">1455 ₽</strong>
+                            </div>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card3 -->
+    
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="./img/Точка еды/Tochka4.jpg" alt="Tochka4" class="card-image">
+                        <div class="card-text">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Комбо На компанию</h3>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-info">
+                                <div class="ingredients">Пицца Пепперони, Мясная. Роллы Калифорния, Филадельфия, Темпурный ролл.</div>
+                            </div>
+                            <!-- /.card-info -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="./img/shopping-card.svg" alt="shopping-card" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">2888 ₽</strong>
+                            </div>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card4 -->
+    
+                    <div class="card wow fadeInUp" data-wow-delay="0.4s">
+                        <img src="./img/Точка еды/Tochka5.jpg" alt="Tochka5" class="card-image">
+                        <div class="card-text">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Комбо обед-ужин на 2-х</h3>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-info">
+                                <div class="ingredients">Вок с курицей яичная лапша, Вок с курицей пшеничная лапша, салат цезарь с курицей, маффин.</div>
+                            </div>
+                            <!-- /.card-info -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="./img/shopping-card.svg" alt="shopping-card" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">1050 ₽</strong>
+                            </div>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card5 -->
+    
+                    <div class="card wow fadeInUp" data-wow-delay="0.6s">
+                        <img src="./img/Точка еды/Tochka6.jpg" alt="Tochka6" class="card-image">
+                        <div class="card-text">
+                            <div class="card-heading">
+                                <h3 class="card-title card-title-reg">Комбо офисное на 4-х</h3>
+                            </div>
+                            <!-- /.card-heading -->
+                            <div class="card-info">
+                                <div class="ingredients">Вок с курицей яичная лапша, Вок с курицей пшеничная лапша, пицца Пепперони.</div>
+                            </div>
+                            <!-- /.card-info -->
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="./img/shopping-card.svg" alt="shopping-card" class="button-card-image">
+                                </button>
+                                <strong class="card-price-bold">1200 ₽</strong>
+                            </div>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card6 -->
+                </div>
+                <!-- /.cards -->
+            </section>
+        </div>   
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-block">
+                <img src="./img/logo.svg" alt="logo" class="logo footer-logo">
+                <nav class="footer-nav">
+                    <a href="#" class="footer-link">Ресторанам </a>
+                    <a href="#" class="footer-link">Курьерам</a>
+                    <a href="#" class="footer-link">Пресс-центр</a>
+                    <a href="#" class="footer-link">Контакты</a>
+                </nav>
+                <div class="social-links">
+                    <a href="#" class="social-link"><img src="./img/inst.svg" alt="instagram"></a>
+                    <a href="#" class="social-link"><img src="./img/fb.svg" alt="facebook"></a>
+                    <a href="#" class="social-link"><img src="./img/vk.svg" alt="vk"></a>
+                </div>
+
+            </div>
+            <!-- /.footer-block -->
+        </div>
+    </footer>
+    <div class="modal">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3 class="modal-title">Корзина</h3>
+                <button class="close">&times;</button>
+            </div>
+            <!-- /.modal-header -->
+            <div class="modal-body">
+                <div class="food-row">
+                    <span class="food-name">Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <div class="food-row">
+                    <span class="food-name">Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <div class="food-row">
+                    <span class="food-name">Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <div class="food-row">
+                    <span class="food-name">Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <div class="food-row">
+                    <span class="food-name">Ролл угорь стандарт</span>
+                    <strong class="food-price">250 ₽</strong>
+                    <div class="food-counter">
+                        <button class="counter-button">-</button>
+                        <span class="counter">1</span>
+                        <button class="counter-button">+</button>
+                    </div>
+                </div>
+                <!-- /.foods-row -->
+            </div>
+            <!-- /.modal-body -->
+            <div class="model-footer">
+                <span class="modal-pricetag">1250 ₽</span>
+                <div class="footer-buttons">
+                    <button class="button button-primary">Оформить заказ</button>
+                    <button class="button">Отмена</button>
+                </div>
+            </div>
+            <!-- /.model-footer -->
+        </div>
+        <!-- /.model-dialog -->
+    </div>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
